@@ -10,6 +10,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
+#poetry run uvicorn model.main:app --host localhost --port 8000
 
 class Item(BaseModel):
     sentence: str
@@ -45,7 +46,7 @@ def trans(sent: Item):
         return "Qu'est-ce que tu fais?"
     elif s == 'what is your name?':
         return "Quel est ton nom ?"
-    return s
+    return predict(s)
 
 
 
