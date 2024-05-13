@@ -7,10 +7,10 @@ from keras.callbacks import TensorBoard
 import numpy as np
 import _pickle as pickle
 
-batch_size = 256  # Batch size for training.
-epochs = 20  # Number of epochs to train for.
+batch_size = 512  # Batch size for training.
+epochs = 40  # Number of epochs to train for.
 latent_dim = 64#256  # Latent dimensionality of the encoding space.
-num_samples = 50000  # Number of samples to train on.
+num_samples = 100000  # Number of samples to train on.
 # Path to the data txt file on disk.
 data_path = 'fra.txt' # to replace by the actual dataset name
 encoder_path='encoder_modelPredTranslation.h5'
