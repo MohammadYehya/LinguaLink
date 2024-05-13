@@ -4,6 +4,7 @@ from keras.models import Model
 from keras.layers import Input, LSTM, Dense, GRU
 from keras.models import load_model
 from keras.callbacks import TensorBoard
+from tensorflow.keras.utils import plot_model
 import numpy as np
 import _pickle as pickle
 
@@ -255,7 +256,10 @@ def predict(sentence):
     input_token_index,max_encoder_seq_length,num_encoder_tokens,reverse_target_char_index,num_decoder_tokens,target_token_index= getChar2encoding(filename)
     encoder_input_data=encodingSentenceToPredict(sentence,input_token_index,max_encoder_seq_length,num_encoder_tokens)
     encoder_model= load_model('encoder_modelPredTranslation.h5')
+    encoder_model.summary()
+
     decoder_model= load_model('decoder_modelPredTranslation.h5')
+    decoder_model.summary()
 
     input_seq = encoder_input_data
 
@@ -282,4 +286,4 @@ def train():
     # our model is made for being used with different langages that do not have the same number of letters and the same alphabet
     saveChar2encoding("char2encoding.pkl",input_token_index,max_encoder_seq_length,num_encoder_tokens,reverse_target_char_index,num_decoder_tokens,target_token_index)
 
-
+predict('Hello')
