@@ -11,3 +11,4 @@ npm run dev
 3rd Terminal
 cd model
 poetry run uvicorn model.main:app --host localhost --port 8000
+You're good to go
