@@ -1,4 +1,4 @@
-Open 3 terminals.
+Open 3 terminals,
 
 1st Terminal
 cd frontend
