@@ -1,4 +1,5 @@
-# LinguaLink
+<img src="assets/LinguaLink.png" />
+<h1>LinguaLink</h1>
 Breaking Language Barriers, One Chat at a Time.
 
 ## Installation
