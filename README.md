@@ -1,14 +1,29 @@
-<img src="assets/LinguaLink.png" />
-<h1>LinguaLink</h1>
-Breaking Language Barriers, One Chat at a Time.
+<div align="center">
+<img src="assets/LinguaLink.png" width="150"/>
+
+# LinguaLink
+
+*Breaking Language Barriers, One Chat at a Time.*
+    
+</div>
+
+<div align="center">
 
 ## Installation
+
+</div>
+
 Clone the repository:
 ```bash
  git clone https://github.com/mohammadyehya/LinguaLink.git
 ```
 
+<div align="center">
+
 ## Usage
+
+</div>
+
 1. Open a new terminal and execute the following commands:
 ```bash
 cd frontend
