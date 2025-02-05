@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/LinguaLink.png" width="150"/>
+<img src="assets/LinguaLink.png" width="200"/>
 
 # LinguaLink
 
