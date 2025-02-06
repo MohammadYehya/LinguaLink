@@ -41,3 +41,4 @@ cd model
 poetry run uvicorn model.main:app --host localhost --port 8000
 ```
 
+
