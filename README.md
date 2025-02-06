@@ -2,7 +2,6 @@
 <img src="assets/LinguaLink.png" width="200"/>
 
 # LinguaLink
-#### 
 
 *Breaking Language Barriers, One Chat at a Time.*
     
